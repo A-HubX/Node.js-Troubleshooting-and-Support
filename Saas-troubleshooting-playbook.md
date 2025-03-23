@@ -101,7 +101,3 @@ This playbook provides a guide for troubleshooting common issues faced by SaaS a
   Once the incident is resolved, conduct a root cause analysis to determine what went wrong and implement measures to prevent similar incidents in the future.
 
 ---
-
-**File name**: `saas-troubleshooting-playbook.md`
-
----
