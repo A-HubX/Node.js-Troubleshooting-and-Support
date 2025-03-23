@@ -1,0 +1,14 @@
+### 4. **npm run start Not Working on Vercel**
+
+**Issue:** Using `npm run start` as the build command leads to failures.
+
+**Cause:** Vercel's platform doesn't support running persistent servers; it's designed for static frontends and serverless functions.  
+  [Learn more on Vercel Docs](https://vercel.com/docs/deployments/troubleshoot-a-build?utm_source=chatgpt.com)
+
+**Solution:**
+
+- **Use Build Commands:** Set the build command to compile your application (e.g., `npm run build`).  
+  [Learn more on Vercel Docs](https://vercel.com/docs/deployments/troubleshoot-a-build?utm_source=chatgpt.com)
+
+- **Configure Serverless Functions:** Implement server-side logic using Vercel's serverless functions instead of a persistent server.  
+  [Learn more on Vercel Docs](https://vercel.com/docs/deployments/troubleshoot-a-build?utm_source=chatgpt.com)
