@@ -35,5 +35,3 @@ This document provides best practices for remote teams to collaborate efficientl
 - **Regular Check-ins:** Schedule weekly or bi-weekly 1-on-1s with team members to assess workload and provide support.
 
 ---
-
-**File name**: `remote-collaboration-guide.md`
