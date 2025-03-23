@@ -1,0 +1,22 @@
+This file demonstrates how to use Vercel's CDN for image optimization and caching
+Example:
+# Add images to the public directory
+mkdir public/images
+
+pages/index.js:
+import Image from 'next/image';
+
+const Home = () => (
+  <div>
+    <h1>Image Optimization with Vercel</h1>
+    <Image
+      src="/images/optimized-image.jpg"
+      alt="Optimized Image"
+      width={500}
+      height={300}
+      quality={75} // Define the image quality
+    />
+  </div>
+);
+
+export default Home;
