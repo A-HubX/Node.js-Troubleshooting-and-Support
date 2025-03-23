@@ -1,0 +1,19 @@
+### 2. **404 Errors After Deployment**
+
+**Issue:** The application returns a 404 error despite a successful deployment.
+
+**Possible Causes:**
+
+- **Incorrect Output Directory:** Vercel might be serving files from an unintended directory.  
+  [Learn more on Vercel Docs](https://vercel.com/docs/deployments/troubleshoot-a-build?utm_source=chatgpt.com)
+
+- **Misconfigured Routes:** The application's routing may not align with Vercel's expectations.  
+  [Learn more on Vercel Docs](https://vercel.com/docs/deployments/troubleshoot-a-build?utm_source=chatgpt.com)
+
+**Solution:**
+
+- **Verify Output Directory:** Ensure the build output directory matches Vercel's configuration.  
+  [Learn more on Vercel Docs](https://vercel.com/docs/deployments/troubleshoot-a-build?utm_source=chatgpt.com)
+
+- **Check Routing Configuration:** Confirm that routes are correctly set up in both the application and `vercel.json`.  
+  [Learn more on Vercel Docs](https://vercel.com/docs/deployments/troubleshoot-a-build?utm_source=chatgpt.com)
