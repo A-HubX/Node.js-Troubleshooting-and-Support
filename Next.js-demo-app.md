@@ -1,5 +1,3 @@
-Simple Next.js App with SSR (Server-Side Rendering)
-
 Example:
 # Install dependencies
 npx create-next-app@latest nextjs-demo-app
